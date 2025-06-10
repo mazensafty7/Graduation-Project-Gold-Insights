@@ -1,0 +1,16 @@
+export { default as Navbar } from './Navbar';
+export { default as Welcome } from './welcome';
+export { default as Offer } from './offer';
+export { default as Forecastnow } from './forecastnow';
+export { default as Aboutus } from './aboutus';
+export { default as Footer } from './footer';
+export { default as Calendar } from './calendar';
+export { default as Golddata } from './gold-trend';
+export { default as Dashboard  } from './dashbord';
+export { default as Exevents  } from './exevent';
+export { default as Dollardashboard  } from './dollardashbord';
+export { default as Oildashboard  } from './oildashbord';
+export { default as Silverdashbord } from './silverdashbord';
+export { default as Sandpdashboard  } from './sandpdashbord';
+export { default as GoldToday  } from './ttoday';
+export { default as GoldSeasonalityTrend  } from './seasons';
