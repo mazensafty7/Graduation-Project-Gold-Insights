@@ -1,0 +1,1074 @@
+body li{
+  list-style: none;
+
+}
+
+.navbar{
+  height: 90px;
+  background-color: rgb(231, 231, 231);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  opacity: 0.9;
+
+
+}
+.nav-item{
+    margin-left: 20px;
+    transition: 0.5s
+    
+}
+.login-btn{
+    background-color: rgb(206, 181, 122);
+    margin-left: 5px;
+    margin-top: 3px;
+    
+}
+.search-btn{
+    width: 220px;
+    height: 50px;
+    
+
+}
+.nav-item:hover{
+    text-shadow: 1px 1px 5px rgb(206, 181, 122);;
+    font-size: larger;
+   
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../public/assests/Home\ BG.png");
+    background-size: cover;
+    position: relative;
+   
+}
+.welcome{
+    left: 50%;
+    position: absolute;
+    top: 30%;
+    transform:translate(-50%,-50%);
+    font-family: 'Iceland', sans-serif;
+   
+
+}
+.tneen{
+    position: absolute;
+    top: 65px;
+    right: -90px;
+
+}
+.logo-info{
+    position: absolute;
+    font-size:50px ;
+    top: 370px;
+    left: 75px;
+
+}
+.first{
+    font-size: 90px;
+    text-align: center;
+    margin-top: 10px;
+   
+  
+}
+.second{
+    font-size: 100px;
+
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.line{
+    background-color:rgb(206, 181, 122);
+    width: 90px;
+    height: 4px;
+    transition: 0.5s;
+    
+}
+.offer-head:hover .line{
+    width: 150px;
+}
+.offer{
+    width: 350px;
+    height: 200px;
+    border: 2px solid rgb(206, 181, 122);;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+}
+.offer::after{
+    width: 0;
+    height: 0;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color:rgb(206, 181, 122);
+    transition: 0.5s;
+
+    
+}
+.offer:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+.forecastnow{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../public/assests/Home\ BG.png");
+    background-size: cover;
+    position: relative;
+    font-family: 'Iceland', sans-serif;
+}
+.forecasting{
+    position: absolute;
+    top:50%;
+    left :50%;
+    transform: translate(-50%,-50%);
+}
+.forecasting p{
+    font-size: 100px;
+    font-family: 'Iceland', sans-serif;
+}
+.predict{
+    margin-left: 110px;
+    margin-top: 20px;
+    background-color: rgb(206, 181, 122);;
+    width: 200px;
+    height: 70px;
+    font-size: 25px;
+    transition: 0.5s;
+    padding-top: 10px;
+
+}
+.predict:hover,#logout:hover,.login-btn:hover{
+    background-color: rgb(152, 133, 89);
+}
+.about-us{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.about-card{
+    background-color: rgb(243, 243, 243);
+    box-shadow: 0px 0px 20px  rgb(206, 181, 122);
+    
+
+}
+.mlon{
+    background: linear-gradient(0deg, rgb(202, 184, 142) 0%, #f3f3f4 100%);
+}
+.about-us:hover .line{
+    width: 200px;
+}
+.about-us:hover .kora{
+   transform: scale(1.15,1.15);
+
+
+}
+.kora{
+    
+    
+   transition: 0.5s;
+   height: 100%;
+}
+.footer{
+    background-color: rgb(231, 231, 231);
+    font-family: 'Iceland', sans-serif;
+}
+.f-foot{
+    margin:auto;
+    text-align: center;
+   
+}
+
+
+
+.logos{
+    margin: auto;
+    text-align: center;
+    
+}
+.logos i{
+    font-size: 45px;
+    margin-right: 20px;
+}
+.vl {
+    border-left: 6px solid green;
+    height: 200px;
+    display: inline;
+  }
+  .tneeen{
+    position: absolute;
+  }
+  .section-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 530px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+    border: 2px black solid;
+    
+   
+}
+.logpage{
+    background-image: url("../public/assests/loginsign.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover ;
+   
+    
+}
+.section-form input{
+    background-color:rgb(223, 223, 223);
+}
+.loginbtn{
+   background-color: rgb(206, 181, 122); 
+   border-radius: 10px;
+   border: none;
+   width: 250px;
+   height: 50px;
+   font-size: 18px;
+   font-weight: 700;
+   transition: 0.5s;
+}
+.loginbtn:hover{
+    background-color: rgb(152, 133, 89);
+}
+.form-group {
+    display: flex;
+    gap: 10px;
+}
+
+.form-group input {
+    flex: 1; /* Ensures equal width for both inputs */
+}
+
+#links{
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+}
+#user-info{
+    display: none;
+    margin-left: -20px;
+    
+}
+#logout{
+    margin-top: 15px;
+    margin-left: 20px;
+    display: none;
+}
+#user{
+    margin-top: 25px;
+    font-family: cursive;
+    font-size: larger;
+}
+.expert{
+    width: 600px;
+    border-radius: 10px;
+    
+    background-color: rgb(216, 216, 216);
+   
+    margin-top: 100px;
+    
+    
+   padding: 10px;
+    position: relative;
+    
+    
+
+}
+
+.circle{
+   border: solid 2px black;
+   border-radius: 50%;
+   width: 120px;
+   height:120px ;
+ 
+ background-image: url("../public/assests/ricky.webp");
+ background-size: cover;
+}
+.advice{
+   background-color: white;
+   position: absolute;
+   right: 20px;
+   top: 30px;
+   font-size: large;
+   padding: 10px;
+   border-radius: 20px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.expert a{
+  position: absolute;
+  right: 10px;
+  bottom: 17px;
+  text-decoration: none;
+  font-size: larger;
+  
+  
+}
+
+
+.ex2 .circle{
+ background-image: url("../public/assests/giovani.webp");
+ background-size: cover;
+}
+.ex3 .circle{
+    background-image: url("../public/assests/frano.webp");
+    background-size: cover;
+   }
+   .ex3 .advice{
+    right:50px ;
+   }
+   .ex4 .circle{
+   
+        background-image: url("../public/assests/lousie.jpeg");
+        background-size: cover;
+   }
+   .ex4 .advice{
+    right:150px ;
+   }
+   .ex5 .circle{
+   
+    background-image: url("../public/assests/ANNA.webp");
+    background-size: cover;
+}
+.ex6 .circle{
+   
+    background-image: url("../public/assests/prezemy.webp");
+    background-size: cover;
+}
+.ex7 .circle{
+   
+    background-image: url("../public/assests/paul.webp");
+    background-size: cover;
+}
+.ex7 .advice{
+    right:40px ;
+   }
+   .ex8 .circle{
+   
+    background-image: url("../public/assests/arkadisuz.webp");
+    background-size: cover;
+}
+.trade{
+    width: 100%;
+    height: 200px;
+    background-image: url("../public/assests/zozo.webp");
+    background-size: cover;
+    
+    
+    
+    background-position: 50% 55%;
+    
+    text-align: center;
+    color: white;
+}
+.bhbk{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    background-image: url("../public/assests/expresso.webp");
+    background-size: cover;
+    background-position: 0 40%;
+    text-align: center;
+}
+.bhbk p{
+    font-size: 70px;
+   
+    font-weight: bolder;
+}
+.news-img{
+    width: 100%;
+    height: 200px;
+    background-image: url("../public/assests/Sign\ Up\ In\ BG.png");
+    background-size: cover;
+    
+    
+    
+    background-position: 50% 45%;
+    
+    text-align: center;
+    color: white;
+}
+.news-img p{
+    font-size: 70px;
+   
+    font-weight: bolder;
+}
+news-container {
+  
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .news-card {
+    width: 80%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    margin: auto;
+    margin-top: 30px;
+  }
+  
+  .news-image {
+    width: 300px;
+    
+    object-fit: cover;
+  }
+  
+  .news-content {
+    padding: 10px;
+  }
+  
+  .news-content h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .news-content p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .news-content a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+  }
+  .tradingp{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.coursat{
+    margin-top: 70px;
+    
+}
+.c-type{
+    
+    width: 150px;
+    
+}
+
+.c-type p{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+}
+.trading-circle{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    
+    margin-left: 5px;
+    background-image: url("../public/assests/goldhat_black_bg.png");
+    background-size: cover;
+    border: 2px solid rgb(206, 181, 122);;
+    margin: auto;
+   
+
+}
+.trade-btn{
+    background-color:black;
+    color: gold;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 12px;
+    width: 100%;
+
+}
+.trade-btn a{
+  text-decoration: none;
+  color: gold !important;
+}
+.trade-btn:hover{
+   background-color: black;
+    color: red;
+}
+
+.trade-btn:hover a{
+   
+    color: red !important;
+}
+.tc-2{
+    background-image: url("../public/assests/lamp.avif");
+
+}
+.tc-3{
+    background-image: url("../public/assests/book.webp");
+}
+.tc-4{
+    background-image: url("../public/assests/cfds.jpg");
+}
+.tc-5{
+    background-image: url("../public/assests/play.jpg");
+
+}
+
+
+
+
+
+
+
+.books-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .book-card {
+    width: 300px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .book-card p {
+    font-size: 14px;
+  }
+  
+  .book-card a {
+    display: block;
+    margin-top: 10px;
+    color: blue;
+  }
+  
+  .book-card button {
+    margin-top: 10px;
+    background-color: gold;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .forecast-page{
+    background-image: url("../public/assests/Home\ BG.png");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+  }
+
+
+/*----------------------------------------------------------------------*/
+
+  .calendar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns to the left */
+    justify-content: flex-start; /* Aligns to the top */
+    padding-left: 20px;
+  
+    
+    
+  }
+  
+  .calendar-title {
+    width: 590px;
+    font-size: 3rem;
+    font-weight:500;
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    background: rgba(123, 122, 122, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+
+    
+  }
+  
+  .calendar-day-label {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .calendar-day {
+    width: 70px;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  .calendar-day:hover {
+    background: black;
+    color: white
+  }
+  
+  .selected {
+    background:rgb(180, 162, 59) !important;
+    color: white !important;
+  }
+  
+  .empty-slot {
+    visibility: hidden;
+  }
+.rightpart{
+    padding-top: 120px;
+    margin-right: 120px;
+  }
+  .forecast-btns{
+    background: #333;
+    font-size: 25px;
+    width: 220px;
+    margin-left: 150px;
+    text-align: center;
+    border-radius: 17px;
+    
+    
+    color: white;
+
+  }
+  .selection{
+    width: 210px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    border-radius: 17px;
+    margin-left: 150px;
+    margin-top: 30px;
+    font-size: 20px;
+  }
+  .real-predict{
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(206, 181, 122);;
+    width: 200px;
+    margin-left: 325px;
+    margin-top: 40px;
+    font-weight:500;
+
+    font-size: 20px;
+  }
+.real-predict:hover{
+    background-color: rgb(155, 136, 91);;
+}
+.f-price{
+    margin-top: 40px ;
+}
+.texts{
+    margin-top: 25px;
+    text-align: center;
+}
+.text{
+    border: none;
+    margin-left: 150px;
+    height: 40px;
+    border-radius: 20px;
+    width: 220px;
+    text-align: center;
+    font-size: 25px;
+   
+    
+}
+.recom{
+    background: #333;
+  
+    border: none;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+   
+    
+    margin-left: 325px;
+    margin-top: 40px;
+    font-weight:500;
+
+    font-size: 25px;
+    width: 250px;
+}
+.recom-field{
+        
+    margin-left: 145px;
+    margin-top: 40px;
+    width: 600px;
+    height: 150px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+   
+
+}
+.analysis{
+    width: 100%;
+    height: 230px;
+    background-color: black;
+    background-image: url("../public/assests/bluanalysis.webp");
+    background-position: 0 40% ;
+   background-size: cover;
+
+    text-align: center;
+}
+.analysis p{
+    font-size: 70px;
+    color: white;
+   
+    font-weight: bolder;
+}
+.data-list{
+    width: 200px;
+    
+   border: rgb(206, 181, 122) solid 1px;
+    position: absolute;
+    top: 350px;
+    text-align: center;
+    border-radius: 0px 9px 9px 0px;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.data-list li{
+    list-style: none;
+    margin-left: 35px;
+    background-color: beige;
+
+}
+.data-head{
+    background-color: black;
+    color: white;
+    padding: 9px;
+    border-radius: 0px 9px 0px 0px;
+}
+.list-elem{
+    
+    border:rgb(206, 181, 122) solid 1px;
+    border-radius: 0px 0px 0px 0px;
+    font-weight: bold;
+    padding: 9px;
+    transition: 0.3s;
+  
+}
+.list-elem:hover{
+    background-color: rgb(206, 181, 122);
+    
+}
+.lastelem{
+    border-radius: 0px 0px 9px 0px;
+}
+.zontainer {
+  padding: 24px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.mazen{
+  background-color: #f5f5f5;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.controls {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table thead {
+  background-color: #ddd;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 12px;
+}
+
+.chart-container {
+  height: 400px;
+  margin-top: 20px;
+}
+
+/************************************************************************/
+.gold-analysis-container {
+  font-family: "Segoe UI", sans-serif;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+  background-color: #fff;
+  color: #333;
+}
+
+.gold-analysis-container h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+section {
+  margin-bottom: 3rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 2rem;
+}
+
+.chart-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chart-description {
+  max-width: 500px;
+  text-align: justify;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.autocorr-box {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1rem;
+}
+.marmora{
+  font-size: 25px;
+}
+.article{
+  line-height: 40px;
+  margin-left: 20px;
+  margin-top: 40px;
+  
+}
+.evento{
+   background-color: #f5f5f5;
+
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+.know{
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
+/****************************************************************************************************************************************/
+
+  
+
+.books{
+
+}
+
+.books-heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+
+.book-card {
+  
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 12px 2px 12px rgba(0, 0, 0, 0.1);
+   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  min-height: 430px; 
+  background-color: rgb(225, 225, 225);
+  
+}
+
+.book-image {
+  width: 200px;
+  height: 195px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.book-grid{
+display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 👈 3 columns */
+  gap: 15px;
+  justify-items: center;
+  padding: 0 20px;
+}
+.book-title {
+  font-size: 16px;
+  margin: 10px 0 5px;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.book-authors {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.book-description {
+  font-size: 12px;
+  color: #333;
+  margin-bottom: 10px;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.book-link {
+  margin-top: auto; /* يخلي الزر ينزل تحت */
+  display: inline-block;
+  padding: 5px 10px;
+  background-color:black;
+  color: gold !important;
+  border-radius: 4px;
+  text-decoration: none;
+ 
+}
+
+.book-link:hover {
+  color: red !important;
+}
+
+.loading,
+.error {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 50px;
+}
+.goldcover{
+  background-image: url("../public/assests/loginsign.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover ;
+}
+.batatas{
+   position: relative;
+  z-index: 2;
+}
+.coll-image1 {
+  
+  padding-top: 90px;
+}
+.coll-image1 img{
+margin-left: 420px;
+width: 700px;
+}
+.general-image{
+  padding-top: 90px;
+  padding-right: 70px;
+  margin-left: -35px;
+  
+}
+
+.lline{
+    background-color:rgb(206, 181, 122);
+    width: 450px;
+    height: 4px;
+    transition: 0.5s;
+    margin: auto;
+    margin-top: 20px;
+
+}
+.coll-artricle{
+  font-size:25px ;
+  padding-left: 20px;
+  padding-top: 60px;
+  line-height: 60px;
+   width: 90%;
+   
+   margin: auto;
+   margin-top: 40px;
+}
+.coll-artricle p{
+  margin-left: 20px;
+  font-size: 20px;
+  
+ 
+}
+.colleration-page{
+ 
+}
+.ll2{
+  width: 300px;
+}
+.ll3{
+  width: 150px;
+}
+.general-image img{
+ margin-left: 420px;
+width: 800px;
+}
+.morata{
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+.finalcount{
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background: rgb(236, 236, 236);
+  box-shadow: 2px 3px 4px black;
+  border-radius: 12px;
+  font-family: Arial, sans-serif;
+  border: rgb(102, 102, 102) 2px solid;
+}
